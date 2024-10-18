@@ -71,7 +71,7 @@ if __name__ == "__main__":
         src_lan=src_lan,
         special_vocabs=special_vocabs,
         model=model,
-        api_key=os.environ.get("API_KEY"),
-        base_url=os.environ.get("BASE_URL"),
+        api_key=os.environ.get("OPENAI_API_KEY"),
+        base_url=os.environ.get("OPENAI_BASE_URL"),
     )
     print(resp)
